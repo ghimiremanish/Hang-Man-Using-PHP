@@ -1,0 +1,81 @@
+body{
+    color: aliceblue;
+    font-family:fantasy;
+    margin: 0;
+    padding: 0;
+}
+.header{
+  background-color: #76b852;
+  height: 65px;
+  width: 100%;
+  font-size: 14px;
+  box-shadow: 0 2px 7px rgb(165, 165, 165);
+}
+.centeredheader{
+  height: 22px;
+  padding: 22px;
+  font-size: 17px;
+  width: auto;
+}
+.home_logo{
+  float: left;
+  text-decoration: none;
+  color: #fff;
+  margin-top: -5px;
+}
+.header_a_logo{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+.headerbutton{
+  float: right;
+  position: relative;
+}
+.signin{
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  float: left;
+}
+.signup{
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  float: right;
+  margin-right: 80px;
+  margin-left: 60px;
+}
+.signin:hover,.signup:hover{
+  text-decoration: underline;
+  color: #fff;
+}
+.box{
+    border:10px solid darkslategrey;
+    font-size: 70px;
+    color: darkslategrey;
+    height: 100px;
+    width: 450px;
+    border-radius: 35px;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+.box_text{
+    padding: 10px;
+}
+footer{
+    color:dimgrey;
+    font-size: 12px;
+    margin-top: 21%;
+    text-align: center;
+    line-height: 20px;
+}
+.algorithm{
+    color:dimgrey;
+    font-size: 8px;
+}
+hr{
+    color: rgba(0,0,0,.1);
+    width: 40%;
+}
